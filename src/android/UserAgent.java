@@ -24,6 +24,7 @@ public class UserAgent extends CordovaPlugin {
             try{
 
                 // another solution here https://github.com/miloproductionsinc/cordova-plugin-useragent/blob/master/src/android/UserAgent.java
+                // and https://github.com/Samnan/cordova-plugin-useragent/blob/master/src/android/UserAgent.java
                 // settings = ((WebView) webView.getEngine().getView()).getSettings(); // returns null
                 settings = ((WebView) webView.getView()).getSettings();
 
